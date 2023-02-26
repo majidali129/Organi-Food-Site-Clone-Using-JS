@@ -1,0 +1,40 @@
+/**
+*! Google fonts
+**/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap'); */
+/* ff : font-family: 'Merriweather', serif; */
+
+/**
+*! Reseting CSS
+**/
+
+*,*::after,*::before{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Poppins', sans-serif; */
+
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+}
+button{
+    outline: none;
+}
+i{
+    cursor: pointer;
+}
